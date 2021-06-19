@@ -1,0 +1,22 @@
+.card1 {
+  background-color: #ff4d4d;
+  padding: 2.5% 0 2.5% 20%;
+}
+.textInput {
+  background-color: #fff;
+  width: 80%;
+  border-radius: 5px;
+  font-size: x-large;
+}
+:host ::ng-deep .mat-form-field-wrapper {
+  margin-bottom: 0 !important;
+  padding: 0;
+}
+hr {
+  border-color: transparent;
+  margin-top: 2.5%;
+}
+
+::ng-deep .mat-form-field-appearance-outline .mat-form-field-outline {
+  color: transparent !important;
+}
