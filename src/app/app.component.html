@@ -20,4 +20,4 @@
     >Submit Link</button>
   </div>
 </mat-card>
-<app-article></app-article>
+<app-article *ngFor="let art of sortedArticles()" [myarticle]="art"></app-article>
