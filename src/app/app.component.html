@@ -1,15 +1,23 @@
 <mat-card class="card1"> 
+  <h3 class="mat-display-1 headertext">Add a Link</h3>
   <p>
     <mat-form-field class="textInput" appearance="outline">
       <mat-label>Title</mat-label>
-      <input matInput>
+      <input matInput #newTitle>
       </mat-form-field>
   </p>
   <hr>
   <p>
     <mat-form-field class="textInput" appearance="outline">
       <mat-label>Link</mat-label>
-      <input matInput>
+      <input matInput #newLink>
     </mat-form-field>
   </p>
+  <hr>
+  <div class="button">
+    <button mat-raised-button style="padding:0.5% 5%"
+    (click)="addArticle(newTitle,newLink)"
+    >Submit Link</button>
+  </div>
 </mat-card>
+<app-article></app-article>

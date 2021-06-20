@@ -1,12 +1,12 @@
 .card1 {
   background-color: #ff4d4d;
-  padding: 2.5% 0 2.5% 20%;
+  padding: 1.5% 20% 1.5% 20%;
 }
 .textInput {
   background-color: #fff;
-  width: 80%;
+  width: 100%;
   border-radius: 5px;
-  font-size: x-large;
+  font-size: medium;
 }
 :host ::ng-deep .mat-form-field-wrapper {
   margin-bottom: 0 !important;
@@ -14,7 +14,16 @@
 }
 hr {
   border-color: transparent;
-  margin-top: 2.5%;
+  margin-top: 0.5%;
+}
+.headertext {
+  margin-bottom: 1.5%;
+  color: white;
+  font-weight: 400;
+}
+.button {
+  text-align: right;
+  justify-content: flex-end;
 }
 
 ::ng-deep .mat-form-field-appearance-outline .mat-form-field-outline {

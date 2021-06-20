@@ -1,0 +1,43 @@
+<!-- <div>
+    
+        <table>
+            <td>
+                <div class="voteShow">
+                    <p class="pointNumber">{{vote}}</p>
+                    <p>Points</p>
+                </div>
+            </td>
+            <td>
+                <div>
+                    <h2>angular title</h2>
+                </div>
+            </td>
+        </table>
+    
+</div> -->
+
+<div class="container">
+    <mat-grid-list cols="3" rowHeight="5rem">
+        <mat-grid-tile class="voteShow" colspan="1" rowspan="2">
+            <div>
+                <span class="pointNumber">{{vote}}</span>
+                <span>Points</span>
+            </div>            
+        </mat-grid-tile>
+        <a href="#">
+            <mat-grid-tile class="matTile" colspan="2" rowspan="1">
+            two
+            </mat-grid-tile>
+        </a>
+            <mat-grid-tile class="matTile" colspan="1" rowspan="1">
+            <button mat-button>Vote Up<mat-icon style="margin-left: 1rem;">thumb_up</mat-icon></button> 
+            </mat-grid-tile>
+
+            <mat-grid-tile class="matTile" colspan="1" rowspan="1">
+                <button mat-button>Vote Down  <mat-icon style="margin-left: 1rem;">thumb_down</mat-icon></button>
+                
+            </mat-grid-tile>
+        
+    </mat-grid-list>
+</div>
+

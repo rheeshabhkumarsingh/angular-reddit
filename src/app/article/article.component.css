@@ -1,0 +1,21 @@
+.voteShow {
+  text-align: center;
+  background-color: #c7c3c3;
+  color: black;
+  border-right: dotted;
+}
+.pointNumber {
+  display: block;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 400;
+  margin-bottom: 40%;
+}
+.matTile {
+  font-size: 28px;
+}
+.container {
+  width: 50%;
+  margin: 1% 25%;
+  border-style: solid;
+}
